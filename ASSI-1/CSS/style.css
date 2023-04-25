@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Asset/background-image.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ---------- NAVBAR ------------ */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    padding: 0 60px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 63px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #ffc233;
+}
+
+.logo,.list-item{
+    cursor: pointer;
+}
+
+.button-nav{
+    background-color: #ff505f;
+    border: none;
+    padding: 10px 37px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+/* ---------- HERO ------------ */
+
+.hero{
+    max-width: 1154px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 119px;
+}
+
+.hero-heading{
+    font-family: "Dela Gothic One", cursive;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    color: #ffc233;
+}
+.button-main{
+    background-color: #ff505f;
+    border: none;
+    padding: 20px 50px;
+    margin-top: 64px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
